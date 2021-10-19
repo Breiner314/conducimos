@@ -1,0 +1,81 @@
+body{
+    overflow-x:hidden;
+}
+.recepcion{
+    width: 100%;
+}
+.logo{
+    width: 100%;
+}
+.boton{
+    padding: 3rem;
+}
+.servicios{
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+}
+h4{
+    text-align: center;
+    color: black;
+    font-size: 1.4rem;
+}.btn{
+    margin-left: 10px;
+}
+.navbar-brand{
+    font-size: 2.5rem;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+.card{
+    margin: 20px 20px 20px;
+}
+.servicios2{
+    margin-top: 40px;
+}
+.color{
+    background: rgb(7, 6, 6);
+}
+.copy{
+    font-size: 0.8rem;
+    color: white;
+}
+.btn-check:active+.btn-outline-dark, .btn-check:checked+.btn-outline-dark, .btn-outline-dark.active, .btn-outline-dark.dropdown-toggle.show, .btn-outline-dark:active {
+    color: #fff;
+    background-color: #2D3986;
+    border-color: #212529;
+}
+.redes{
+    width: 220px;
+}
+.logo1{
+    width: 45px;
+}
+.cen{
+    justify-content: center;
+}
+.maps{
+    margin-top: 50px;
+}
+.cen{
+    margin-top: 25px;
+    margin-left: 100px;
+}
+.cen1{
+    margin-top: 8px;
+    margin-left: 90px;
+}
+.cen2{
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.mb-5 {
+    margin-bottom: 1rem!important;
+}
+img{
+    border-radius: 25px;
+}
