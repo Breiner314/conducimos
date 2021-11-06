@@ -100,3 +100,21 @@ h4{
 .faj{
     width: 60%;
 }
+
+  form.form_contact input,
+  form.form_contact textarea{
+      width: 100%;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 2px solid #292929;
+      color: #000000;
+      font-weight: 400;
+  }
+  form.form_contact textarea{
+      max-width: 100%;
+      min-width: 100%;
+      max-height: 90px;
+  }
+.pse{
+    width: 25px;
+}
