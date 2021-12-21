@@ -60,6 +60,7 @@ h4{
     width: 45px;
 }
 .cen{
+    display: flex;
     justify-content: center;
 }
 .maps{
