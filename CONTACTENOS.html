@@ -28,10 +28,7 @@
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                 <li><a class="dropdown-item" href="index.html">Inicio</a></li>
-                <li><a class="dropdown-item" href="#">Cursos</a></li>
                 <li><a class="dropdown-item" href="vehiculos.html">Vehículos</a></li>
-                <li><a class="dropdown-item" href="#">Licencia de moto</a></li>
-                <li><a class="dropdown-item" href="#">Licencia de carro</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="#">Dirección</a></li>
               </ul>
@@ -53,36 +50,38 @@
     </nav>
   </header>
   <section>
-    <div class="cen card mb-3" style="max-width: 1080px;">
+    <div class="sn mb-3">
       <div class="row g-0">
         <div class="col-md-6">
             <h2>Información <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
               <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
               <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
             </svg> </h2>
-            <h3>Llámanos a nuestro</h3>
+            <h3>Comunícate a nuestros medios de comunicación</h3><br>
             <h3>PBX: 448 4278</h3>
-            <h3>Cel:3174415271</h3>
-            <h3>Email:servicioalcliente@conducimos.com.co</h3>
+            <h3>Cel: 3174415271</h3>
+            <h3>Email: servicioalcliente@conducimos.com.co</h3>
+            <h3>Instagram: @cea_conducimos</h3>
+            <h3>Facebook: CEA Conducimos S.A.S</h3>
         </div>
         <div class="col-md-6">
           <div class="card-body">
-            <form action="" class="form_contact">
+            <form enctype="text/plain" action="mailto:diseno.conducimos@gmail.com" class="form_contact" method="post">
               <h2>Envia un mensaje</h2>
               <div class="user_info">
                   <label for="names">Nombres</label>
-                  <input type="text" id="names">
+                  <input type="text" name="Nombre" size="50"><br>
       
                   <label for="phone">Telefono / Celular</label>
-                  <input type="text" id="phone">
+                  <input type="text" name="Celular" size="50"><br>
       
-                  <label for="email">Correo electronico</label>
-                  <input type="text" id="email">
+                  <label for="e-mail">Correo electronico</label>
+                  <input type="e-mail" name="Correo" size="50"><br>
       
                   <label for="mensaje">Mensaje</label>
-                  <textarea id="mensaje"></textarea>
+                  <textarea name="Mensaje"></textarea size="50"><br>
       
-                  <input type="button" class="nav-link active btn btn-outline-dark" value="Enviar Mensaje" id="btnSend">
+                  <input type="submit" class="nav-link active btn btn-outline-dark" value="Enviar Mensaje" id="btnSend">
               </div>
           </form>
           </div>
