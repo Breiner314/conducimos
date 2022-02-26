@@ -23,7 +23,7 @@
         <div class="flex-row-reverse bd-highlight collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="lent nav-item dropdown">
-              <a class="btn btn-outline-dark nav-link dropdown-toggle" href="vehiculos.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="btn btn-outline-dark nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 INICIO
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
@@ -33,13 +33,13 @@
                 <li><a class="dropdown-item" href="#">Dirección</a></li>
               </ul>
             <li class="nav-item">
-              <a class="nav-link active btn btn-outline-dark" aria-current="page" href="#">VEHÍCULOS</a>
+              <a class="nav-link active btn btn-outline-dark" aria-current="page" href="vehiculos.html">VEHÍCULOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active btn btn-outline-dark" aria-current="page" href="empresa.html">NUESTRA EMPRESA</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active btn btn-outline-dark" aria-current="page" href="CONTACTENOS.html">CONTÁCTENOS</a>
+              <a class="nav-link active btn btn-outline-dark" aria-current="page" href="formulario.php">CONTÁCTENOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active btn btn-outline-dark" aria-current="page" href="https://www.psepagos.co/PSEHostingUI/ShowTicketOffice.aspx?ID=8624">PAGOS<img class="pse" src="img/pse.png" alt=""></a>
@@ -49,44 +49,53 @@
       </div>
     </nav>
   </header>
-<section>
-    <div class="card mb-3" style="max-width: 1500px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="img/A1.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Licencias de conducción A1.</h5>
-              <p class="card-text">Es necesario para este proceso saber leer y escribir, tener 16 o más años, documento de identidad
-                original, una foto tamaño 3x4, estar inscrito(a) en el registro único nacional de tránsito RUNT, puedes 
-                consultar la inscripción en este link <a target="_blank" href="https://www.runt.com.co/consultaCiudadana/#/consultaPersona">https://www.runt.com.co/consultaCiudadana/#/consultaPersona</a>; 
-                en caso de no estar inscrito(a) lo puedes hacer a través nuestro con un pago de $25.000 adicionales.</p>
-                <p class="card-text">Nuestros horarios para clases teóricas son:
-                  Lunes a viernes: 8:00 am hasta las 12:00 m
-                  Lunes a viernes: 18:00 hasta las 22:00.
-                  Las clases teóricas son 25 más 3 clases de taller, lo realizas en 8 días.</p>
-                  <p class="card-text">Nuestros horarios para clases prácticas son:
-                    Lunes a viernes: 6:00 am, 8:00 am, 10:00 am, 14:00, 16:00 y 18:00.
-                    Sábados 6:00 am, 8:00 am, 10:00 am, y 12:00 m
-                    Las clases prácticas son 4, lo realizas en 8 días.</p>
-                    <p class="card-text">El día de la matrícula se agendan las clases teóricas y prácticas en nuestra sede ubicada en la CR 
-                      81 # 26-40 barrio Belén la Palma, (diagonal al consumo). Atendemos de lunes a viernes de 8:00 am 
-                      hasta las 18:00 y los sábados de 8:00 am hasta las 13:00.</p>
-              <a href="https://api.whatsapp.com/send?phone=573174416271&text=Hola%2C%20necesito%20informaci%C3%B3n." type="button" class="btn btn-outline-dark">RESERVAR<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-              </svg></a>
-              <a href="https://www.psepagos.co/PSEHostingUI/ShowTicketOffice.aspx?ID=8624" type="button" class="btn btn-outline-dark">COMPRAR<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
-                <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
-                <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
-                <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
-              </svg></a>
-            </div>
+  <section>
+    <div class="sn mb-3">
+      <div class="row g-0">
+        <div class="col-md-6">
+            <h2>Información <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-bounding-box" viewBox="0 0 16 16">
+              <path d="M1.5 1a.5.5 0 0 0-.5.5v3a.5.5 0 0 1-1 0v-3A1.5 1.5 0 0 1 1.5 0h3a.5.5 0 0 1 0 1h-3zM11 .5a.5.5 0 0 1 .5-.5h3A1.5 1.5 0 0 1 16 1.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 1-.5-.5zM.5 11a.5.5 0 0 1 .5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 1 0 1h-3A1.5 1.5 0 0 1 0 14.5v-3a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v3a1.5 1.5 0 0 1-1.5 1.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 1 .5-.5z"/>
+              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm8-9a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            </svg> </h2>
+            <h3>Medios de comunicación</h3><br>
+            <h3>PBX: 448 4278</h3>
+            <h3>Cel: 3174415271</h3>
+            <h3>Email: servicioalcliente@conducimos.com.co</h3>
+            <h3>Instagram: @cea_conducimos</h3>
+            <h3>Facebook: CEA Conducimos S.A.S</h3>
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <form class="form_contact action=" method="post" name="contacto" id ="contacto" >
+              <h2>Envia un mensaje</h2>
+              <div class="user_info">
+                  <label for="names">Nombres</label>
+                  <input type="text" name="name">
+      
+                  <label for="phone">Telefono / Celular</label>
+                  <input type="number" name="celular">
+      
+                  <label for="e-mail">Correo electronico</label>
+                  <input name="email" type="text">
+
+                  <label for="mensaje">Asunto</label>
+                  <textarea name="asunto"></textarea>
+      
+                  <label for="mensaje">Mensaje</label>
+                  <textarea name="msg"></textarea>
+      
+                  <input name="enviar" type="submit" class="nav-link active btn btn-outline-dark">
+              </div>
+          </form>
+          <?php
+          include("correo.php")
+          ?>
           </div>
         </div>
       </div>
-</section>
+    </div>
+  </section>
+ </section>
 <section class="maps">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2700134583724!2d-75.60397688529413!3d6.228088128255006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429eb378c804f%3A0x17a2e3ad2525f5f5!2sCentro%20de%20Ense%C3%B1anza%20Automovil%C3%ADstica%20Conducimos!5e0!3m2!1ses!2sco!4v1634242663983!5m2!1ses!2sco" width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
