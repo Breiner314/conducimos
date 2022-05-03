@@ -122,3 +122,6 @@ h3{
 .sn{
     margin: 0% 10% 0%;
 }
+.card-text{
+    text-align: justify;
+}
